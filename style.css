@@ -1,0 +1,157 @@
+
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{background-color: #425F57;}
+.container{
+    height: 200vh;
+    width: 90%;
+    margin: auto;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns:repeat(4 , 1fr) ;
+}
+.container .box{
+     
+    border-radius: 20px;
+}
+
+.container .box:nth-child(1){
+    background-image: url(https://source.unsplash.com/random/?mango,fruits);
+    background-size: cover;
+    background-position: center;
+  
+}
+.container .box:nth-child(2){
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    background-image: url(https://source.unsplash.com/random/?grapes,fruits);
+    background-size: cover;
+    background-position: center;
+}
+.container .box:nth-child(3){
+    background-image: url(https://source.unsplash.com/random/?watermelon,fruits);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(4){
+    background-image: url(https://source.unsplash.com/random/?strawberry,fruits);
+    background-size: cover;
+    background-position: center;
+    
+}
+.container .box:nth-child(5){
+    background-image: url(https://source.unsplash.com/random/?apple,fruits);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(6){    
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: url(https://source.unsplash.com/random/?kiwi,fruits);
+    background-size: cover;
+    background-position: center;
+}
+.container .box:nth-child(7){
+    background-image: url(https://source.unsplash.com/random/?dragonrfruit,fruits);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(8){
+    background-image: url(https://source.unsplash.com/random/?papaya,fruits);
+    background-size: cover;
+    background-position: center;
+  
+}
+.container .box:nth-child(9){
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-image: url(https://source.unsplash.com/random/?bear,animals);
+    background-size: cover;
+    background-position: center;
+}
+.container .box:nth-child(10){
+    background-image: url(https://source.unsplash.com/random/?elephant,animals);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(11){
+    background-image: url(https://source.unsplash.com/random/?rabbit,animals);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(12){
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    background-image: url(https://source.unsplash.com/random/?gorilla,animals);
+    background-size: cover;
+    background-position: center;
+}
+.container .box:nth-child(13){
+    background-image: url(https://source.unsplash.com/random/?panda,animals);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(14){
+    background-image: url(https://source.unsplash.com/random/?kangaroo,animals);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(15){
+    background-image: url(https://source.unsplash.com/random/?parrot,birdss);
+    background-size: cover;
+    background-position: center;
+    
+}
+.container .box:nth-child(16){
+    background-image: url(https://source.unsplash.com/random/?peacock,birdss);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(17){
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 7;
+    background-image: url(https://source.unsplash.com/random/?pigeon,birdss);
+    background-size: cover;
+    background-position: center;
+}
+.container .box:nth-child(18){
+    
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 7;
+    grid-row-end: 8;
+    background-image: url(https://source.unsplash.com/random/?cuckoo,birdss);
+    background-size: cover;
+    background-position: center;
+}
+.container .box:nth-child(19){
+    background-image: url(https://source.unsplash.com/random/?nightingale,birdss);
+    background-size: cover;
+    background-position: center;
+   
+}
+.container .box:nth-child(20){
+    background-image: url(https://source.unsplash.com/random/?kingfisher,birdss);
+    background-size: cover;
+    background-position: center;
+
+}   
+   
